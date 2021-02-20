@@ -1573,6 +1573,11 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.24.0.tgz#9cdbe56cb562d783d37a68fa2475d41573d54e67"
   integrity sha512-37Eq686kMe7q82Pnak0sDMOlrO+M7HegRZ3q8GNLfSv9sek291hs6r6igsL5B4zWUG9mFN2rPCU427FzxpsVCw==
 
+"@redwoodjs/auth@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/auth/-/auth-0.25.1.tgz#217c9bdbafc71f3f131371f038e7633c52db06de"
+  integrity sha512-mTUSWAj9ENa9jp6bdg03cQ3pu/c6mWwiLqLlcr6oGh2TA2YPVRBA+Yucb7TYedGLSL89xm9iy95kMhlM4gFy4Q==
+
 "@redwoodjs/cli@^0.24.0":
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/cli/-/cli-0.24.0.tgz#ee135f68709d6223e4ddd93d6d8bbeeeb602ca89"
@@ -1707,10 +1712,10 @@
   resolved "https://registry.yarnpkg.com/@redwoodjs/eslint-plugin-redwood/-/eslint-plugin-redwood-0.24.0.tgz#571c9222ab3f00a6ba0716f48934f74708ed2441"
   integrity sha512-WhhebCYDHHQl6l6H9wyAxyV2qpyUXbPzzKlPBHpsV4dGfRvFFjH1LJVc2ofn8amWJ77lhqdRmuH15dWbL2GJpQ==
 
-"@redwoodjs/forms@^0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.24.0.tgz#b76c4924b45772895c44f6803de22d1bf7a21fa4"
-  integrity sha512-WMVr9dPBl2iUysUGXLMKT5Rd9yXsjveIqKhvJzFmnF+1OOL9bjUUYW0+kDMLHdTMzjnsq/Z3qa75yc5qhsYWcg==
+"@redwoodjs/forms@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/forms/-/forms-0.25.1.tgz#f87c999e3b56957ec30b7a2ac49171dc3a96d8e2"
+  integrity sha512-pMQmIkq4OwiC1fIIy2Jen86yRt+iGOfiaSPNxXkO8jca34Ns9NfIZNCghj58S04KQjE0/2U76j+c3PaxkGZ4Hg==
   dependencies:
     "@types/pascalcase" "^1.0.0"
     core-js "3.6.5"
@@ -1734,6 +1739,15 @@
   integrity sha512-IDY2cKfd2hfry5BKfwyiu5c6Wppn5Twf4Iz2Y9T6a2+YLo9hJ8Su3yIjWHf4A15Qzpy4WGlgIKy2797qxd0yhQ==
   dependencies:
     "@redwoodjs/auth" "^0.24.0"
+    core-js "3.6.5"
+    lodash.isequal "^4.5.0"
+
+"@redwoodjs/router@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.25.1.tgz#f1fb7b151b1762abc2f19b1ef47c5611fbf0c59b"
+  integrity sha512-nrkYmVAj5cSl1JTxe7Lu/xU6pJBqVtZy1yHdftJHS3HMhWyE5fpMc7gPkrqKom2bMvEbM+ypdaZPEgjTFPpHIw==
+  dependencies:
+    "@redwoodjs/auth" "^0.25.1"
     core-js "3.6.5"
     lodash.isequal "^4.5.0"
 
@@ -1781,6 +1795,17 @@
   version "0.24.0"
   resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.24.0.tgz#225412abb2f47cab61a0f6a9dbf60f47d0780b7d"
   integrity sha512-6ScBQZrj5P2gPT+rvnjs+JNfCoSbRcIUv01Bd9hF0On2LVVG2kYzu8djxkg3b4U8TjdBUGr/Of1JhOs0bWqqJA==
+  dependencies:
+    "@apollo/client" "^3.2.5"
+    "@types/react" "16.9.53"
+    core-js "3.6.5"
+    graphql "^15.3.0"
+    proptypes "^1.1.0"
+
+"@redwoodjs/web@^0.25.1":
+  version "0.25.1"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.25.1.tgz#0194b01e5271e7c961ef0f90a60ae8eec54c4e44"
+  integrity sha512-ZMS86k3NUmC//WWRjm+TT5kFzCGlvJBhkr3ADKWc1glEttAmLg/4fn/T/Qgjkykqqy2BzoEgD9G5pIutRFiHqw==
   dependencies:
     "@apollo/client" "^3.2.5"
     "@types/react" "16.9.53"
