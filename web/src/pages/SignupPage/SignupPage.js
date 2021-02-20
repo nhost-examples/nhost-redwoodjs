@@ -10,7 +10,7 @@ const SignupPage = () => {
   const onSubmit = (data) => {
     setError(null)
     signUp({ email: data.email, password: data.password })
-      .then(() => navigate(routes.signin()))
+      .then(() => navigate(routes.home()))
       .catch((error) => setError(error.message))
   }
 

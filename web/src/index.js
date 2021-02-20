@@ -20,7 +20,7 @@ ReactDOM.render(
     <AuthProvider
       client={nhostClient}
       type="nhost"
-      skipFetchCurrentUser={false}
+      skipFetchCurrentUser
     >
       <RedwoodApolloProvider>
         <Routes />
