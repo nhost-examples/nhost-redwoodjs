@@ -1,3 +1,5 @@
+# All examples has moved to [github.com/nhost/nhost](https://github.com/nhost/nhost/tree/main/examples).
+
 # Todo
 
 This is a very simple todo application built with Nhost and RedwoodJS. Nhost is used as the entire backend by providing auth, a GraphQL API (Hasura) and PostgreSQL.
